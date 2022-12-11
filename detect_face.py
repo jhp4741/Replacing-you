@@ -1,11 +1,11 @@
 import cv2
 
+import os
+os.chdir(os.path.dirname(__file__)) #상대경로 사용시 에러방지
+
 face_cascade = cv2.CascadeClassifier('./xml/haarcascade_frontalface_default.xml')
-#C:/Users/a8630/Desktop/test/replaceYou/
-#저는 오류로 인해 전체 파일 경로를 넣었습니다.
 cap = cv2.VideoCapture(0)
 image = cv2.imread('./image/Cats.jpg') #임의로 넣은 이미지 파일 입니다.
-
 
 while(cap.isOpened()):
     ret, frame = cap.read()
