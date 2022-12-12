@@ -4,6 +4,8 @@
 
 실시간 영상에서 인물이 카메라 프레임에서 벗어났을 때 사진으로 대체하는 프로그램
 
+# Key points
+
 ***1. Connecting camera***
 - connecting with webcam and reading the webcam
 - when cannot read webcam " There is no camera " phrase is printed
