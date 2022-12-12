@@ -18,6 +18,8 @@ while(cap.isOpened()):
         profile_faces = profile_face_cascade.detectMultiScale(gray,1.1,4)
 
         if len(front_faces) > 0 or len(profile_faces) > 0:
+            for (x,y,w,h) in profile_faces:
+                cv2.rectangle(frame,(x,y),(x+w,y+h),(255,0,0),2)
             cv2.imshow('Video',frame)
         else:
             cv2.imshow('Video',image)
