@@ -21,8 +21,8 @@
 ***5. Replacing with picture***
 - when a user is out of frame, replacing with picture that is get from user
 
-# Key points
-used package haarcascade_frontalface_default.xml to detect frontalface
+# Used package
+1. haarcascade_frontalface_default.xml to detect frontalface
 - Download from Github at [*official Github site address*](https://github.com/opencv/opencv/tree/master/data/haarcascades)
 
 --- 
