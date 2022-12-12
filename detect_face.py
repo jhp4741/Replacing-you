@@ -11,7 +11,6 @@ image = cv2.imread('./image/Cats.jpg') #임의로 넣은 이미지 파일 입니
 
 while(cap.isOpened()):
     ret, frame = cap.read()
-    frame = cv2.flip(frame,1)
     if ret:
         gray =cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         front_faces = front_face_cascade.detectMultiScale(gray, 1.05, 1, minSize=(100,100))
