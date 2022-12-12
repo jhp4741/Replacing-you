@@ -13,18 +13,19 @@
 - when read webcam, output into window called 'test'
 
 ***2. Detecting face***
+- haarcascade_frontalface_default.xml
 
 ***3. Detecting face in different aspect***
+- haarcascade_profileface.xml
 
 ***4. Getting a picture from User***
 
 ***5. Replacing with picture***
 - when a user is out of frame, replacing with picture that is get from user
 
-# Used package
-1. haarcascade_frontalface_default.xml to detect frontalface
+# Used package and reference
+**1. haarcascade_frontalface_default.xml to detect frontalface**
 - Download from Github at [*official Github site address*](https://github.com/opencv/opencv/tree/master/data/haarcascades)
 
---- 
-
-***Reference***
+**2. haarcascade_profileface.xml to detect sideface**
+- Reference from OpenSource Lecture week 13 ppt by Prof.Youngmin Oh
