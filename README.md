@@ -1,5 +1,7 @@
 # Replacing you
 
+--- 
+
 실시간 영상에서 인물이 카메라 프레임에서 벗어났을 때 사진으로 대체하는 프로그램
 
 ***1. Connecting camera***
