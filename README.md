@@ -18,6 +18,7 @@ Our project name is Replacing You. It's a program that replaces a person with a 
 - haarcascade_profileface.xml
 
 ***4. Loading a image from User***
+- a picture needed to substitute user's face when out of frame
 
 ***5. Replacing with picture***
 - when a user is out of frame, replacing with picture that is get from user
