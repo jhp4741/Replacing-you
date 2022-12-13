@@ -3,6 +3,7 @@
 --- 
 Project with OpenCV and Python.
 Our project name is Replacing You. It's a program that replaces a person with a picture when you deviates from the camera frame in webcam.
+Idea by Rkyungdeok and made by OpenSource team 29.
 
 
 # Key points
