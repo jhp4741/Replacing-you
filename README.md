@@ -29,3 +29,5 @@ Our project name is Replacing You. It's a program that replaces a person with a 
 
 **2. haarcascade_profileface.xml to detect sideface**
 - Reference from OpenSource Lecture week 13 ppt by Prof.Youngmin Oh
+
+# Results
